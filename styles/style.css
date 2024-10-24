@@ -46,7 +46,8 @@
       backface-visibility: hidden;
     }
     .cartao__conteudo__resposta img{
-        padding: 80px;
+        width: 80px;
+        margin: auto;
         top: 0%;
     }
   
