@@ -45,6 +45,9 @@
       font-size: 1vw;
       backface-visibility: hidden;
     }
+    .cartao__conteudo__resposta img{
+        padding: 80px;
+    }
   
     .cartao__conteudo__resposta p {
       color: var(--card-back-color);
