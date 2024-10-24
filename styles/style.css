@@ -51,6 +51,10 @@ body {
     font-weight: 700;
   }
 
+  .cartao__conteudo__resposta img {
+    width: 15%;
+  }
+
   .cartao:hover .cartao__conteudo{
     transform: rotateY(180deg);  
   }
