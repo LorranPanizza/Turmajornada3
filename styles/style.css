@@ -55,6 +55,10 @@ body {
   .cartao:hover .cartao_conteudo{
     transform: rotateX(180deg);  
   }
+  .cartao_conteudo_pergunta p {
+ color: var(--card-back-color);
+ font-weight: 700;
+  }
 
   .cartao_conteudo_pergunta,
   .cartao_conteudo_resposta{
