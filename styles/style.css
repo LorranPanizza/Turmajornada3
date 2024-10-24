@@ -45,16 +45,15 @@
       font-size: 1vw;
       backface-visibility: hidden;
     }
-    .cartao__conteudo__resposta img{
-        width: 100px;
-        margin: auto;
-        top: 0%;
-    }
-  
-    .cartao__conteudo__resposta p {
+    .cartao__conteudo__resposta p{
       color: var(--card-back-color);
       font-weight: 700;
-    }
+      font-size: 1.4vw;
+  }
+  
+  .cartao__conteudo__resposta img{
+      width: 15%;
+  }
   
     .cartao:hover .cartao__conteudo{
       transform: rotateY(180deg);  
