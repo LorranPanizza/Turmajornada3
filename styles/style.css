@@ -7,8 +7,11 @@
 }
 
 body {
-  background: url(img/bg-desktop-green.webp);
+  background: url(img/palmeiras.jpg);
   font-family: Tomorrow;
+}
+.cartao__conteudo__resposta img{
+  width: 15%;
 }
 
 .cartao__conteudo {
