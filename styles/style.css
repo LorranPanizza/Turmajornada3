@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+
 :root{
   --text-color: #ffffff;
   --card-front-color: #09683d;
@@ -5,7 +7,7 @@
 }
 
 body {
-  background: url(img/palmeiras.jpg);
+  background: url(img/bg-desktop-green.webp);
   font-family: Tomorrow;
 }
 
@@ -51,13 +53,8 @@ body {
     font-weight: 700;
   }
 
-  .cartao__conteudo__resposta img {
-    width: 15%;
-  
-  }
-
   .cartao:hover .cartao__conteudo{
-    transform: rotateX('180deg');  
+    transform: rotateY(180deg);  
   }
 
   .cartao__conteudo__pergunta,
